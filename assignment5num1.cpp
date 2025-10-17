@@ -21,4 +21,6 @@ int main() {
     for(int i=0; i<8; i++) {
         cout << p[i] << " " << q[i] << " " << r[i] << "   " << (q[i]&&r[i]) << "     " << !(q[i]&&r[i]) << "       " << (p[i]||!(q[i]&&r[i])) << endl;
     }
+
+    return 0;
 }
